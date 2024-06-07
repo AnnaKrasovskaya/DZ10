@@ -1,0 +1,20 @@
+@import "./_template.scss";
+@import "./_main.scss";
+@import "./header";
+@import "./footer";
+.container {
+  max-width: 1110px;
+  margin: auto;
+  @media (max-width: 1490px) {
+    max-width: 100%;
+    padding: 0 15px;
+  }
+}
+.wrapper {
+  max-width: 1440px;
+  margin: auto;
+  overflow-x: hidden;
+  @media (max-width: 1490px) {
+    max-width: 100%;
+  }
+}
